@@ -122,6 +122,8 @@
     }
 
     w.gameRestart = function() {
+        createjs.Sound.stop();
+
         _gameBBList = [];
         _gameBBListIndex = 0;
         _gameScore = 0;
