@@ -350,11 +350,13 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
-        return '人？';
+
+        if (score === 114) return '哼哼哼啊啊啊啊啊啊啊啊';
+
+        if (score <= 49) return '人间至屑';
+        if (score <= 99) return '斯国一(迫真)';
+        if (score <= 149) return 'sodayo';
+        return '压力马斯内';
     }
 
     w.toStr = function(obj) {
